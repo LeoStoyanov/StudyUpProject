@@ -1,0 +1,49 @@
+#register-card {
+    background-color: #170B3B;
+}
+
+#register-header {
+    color: white;
+}
+
+#usernameInput {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#passwordInput {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#emailInput {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#back-to-login-text {
+    color: #D04976;
+    text-decoration-color: #D04976;
+}
+
+.form-control:focus {
+    border-color: #D04976;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 8px rgba(208, 73, 118);
+}
+
+.form-control::placeholder {
+    color: whitesmoke;
+    opacity: 0.7;
+}
+
+#create-acc-button {
+    background-color: #D04976;
+    color: white;
+}
+
+#create-acc-button:hover{
+    background-color: #cf1352;
+}

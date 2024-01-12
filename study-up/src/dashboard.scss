@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+$border-radius-size: 14px;
+
+// Sets the background for all pages.
+body {
+  background: url('https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/635ac133cccf1d9b2d54dc97_horizontal%20(3).svg') no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  margin-top: 20px;
+}
+
+#button-outer {
+  width:100%;
+  text-align: center;
+}
+
+.button-inner {
+  display: inline;
+  width: 33%;
+  margin-left: 8px;
+}
+
+
+.modal-content {
+  background-color:#1A1C28;
+}
+
+.wrapper {
+  padding-bottom: 100px;
+  width: auto;
+}
+
+#create-quiz-button {
+  background-color: #D04976;
+  color: #ffffff;
+}
+
+#create-quiz-button:hover{
+  background-color: #cf1352;
+}
+
+#create-flash-button {
+  background-color: #D04976;
+  color: #ffffff;
+}
+
+#create-flash-button:hover{
+  background-color: #cf1352;
+}
+
+#create-note-button {
+  background-color: #D04976;
+  color: #ffffff;
+}
+
+#create-note-button:hover{
+  background-color: #cf1352;
+}
+
+#dashboard-header {
+  color: #ffffff;
+  font: "Lato", Arial, sans-serif;
+  margin-top: 26px;
+  margin-right: 280px;
+}
+
+.quiz-card {
+  background: #170B3B;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: $border-radius-size + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+}
+
+.quiz-card-image {
+  position: relative;
+  height: 230px;
+  display:block;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  border-top-left-radius: $border-radius-size;
+  border-top-right-radius: $border-radius-size;
+  background: url('https://media.istockphoto.com/id/1223692043/vector/quiz-neon-text-banner-on-brick-wall-questions-team-game-quiz-night-poster-pub-neon-signboard.jpg?s=612x612&w=0&k=20&c=eqCWw4lF_ypcD9xKy7pu5QBNeqLASUWYnKZVdIjzNyc=');
+  background-size: contain;
+}
+
+.quiz-card-name {
+  font-size: 26px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.quiz-card-footer {
+
+  background: #170B3B;
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: $border-radius-size;
+  border-bottom-right-radius: $border-radius-size;
+  
+  .one-half {
+    width: 50%;
+    height: 50px;
+    float: left;
+    padding: 15px 15px;
+    border-right: 1px solid #ffffff;
+  }
+
+  .one-half:hover {
+    color: #D04976
+  }
+
+  .no-border {
+    border-right: none;
+  }
+}
+
+.note-card {
+  background: #170B3B;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: $border-radius-size + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+}
+.note-card-image{
+  position: relative;
+  height: 230px;
+  width: 100%;
+  display:block;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  border-top-left-radius: $border-radius-size;
+  border-top-right-radius: $border-radius-size;
+  background-size: contain;
+
+}
+.note-card-name {
+  background: #170B3B;
+  font-size: 26px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.note-card-footer {
+  background: #170B3B;
+  color: white;
+  font-weight: 700;
+  height: inherit;
+  padding: 15px;
+  border-bottom-left-radius: $border-radius-size;
+  border-bottom-right-radius: $border-radius-size;
+  :hover {
+    color: #D04976
+  }
+}
+
+
+.flash-card{
+  background: #170B3B;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: $border-radius-size + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+}
+
+.flash-card-image{
+  position: relative;
+  height: 230px;
+  width:100%;
+  display: inline-block;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  border-top-left-radius: $border-radius-size;
+  border-top-right-radius: $border-radius-size;
+  background-size: contain;
+}
+.flash-card-name {
+  font-size: 26px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.flash-card-footer {
+  background: #170B3B;
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: $border-radius-size;
+  border-bottom-right-radius: $border-radius-size;
+  
+  .one-half {
+    width: 50%;
+    height: 50px;
+    float: left;
+    padding: 15px 15px;
+    border-right: 1px solid #ffffff;
+  }
+
+  .one-half:hover {
+    color: #D04976
+  }
+
+  .no-border {
+    border-right: none;
+  }
+}
+

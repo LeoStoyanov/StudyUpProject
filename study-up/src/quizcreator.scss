@@ -1,0 +1,99 @@
+
+#quiz-creator-header {
+    color: white;
+}
+
+#header-bg {
+    background-color: #170B3B;
+}
+
+#quiz-title-text {
+    color: white;
+}
+
+#quiz-title-extra {
+    background-color: #2f1e63;
+    color: white;
+    border-color: #D04976;
+}
+
+#quiz-title-input {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#question-bg {
+    background-color: #170B3B;
+}
+
+#quest-title-text {
+    color: white;
+}
+
+#option-text {
+    color: white;
+}
+
+#quest-title-extra {
+    background-color: #2f1e63;
+    color: white;
+    border-color: #D04976;
+}
+
+#quest-title-input {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#answer-type {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#answer-type:focus {
+    border-color: #D04976;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 8px rgba(208, 73, 118);
+}
+
+#short-answer-input {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#add-option-input {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+}
+
+#add-option-button {
+    background-color: #D04976;
+    color: white;
+}
+
+#add-option-button:hover{
+    background-color: #cf1352;
+}
+
+#add-question-button {
+    background-color: #BF40BF;
+    color: white;
+}
+
+#add-question-button:hover{
+    background-color: #bf0dbf;
+}
+
+#save-leave-quiz-button {
+    background-color: #953553;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#save-leave-quiz-button:hover {
+    background-color: #940733;
+}

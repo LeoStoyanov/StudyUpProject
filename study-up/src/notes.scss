@@ -1,0 +1,40 @@
+
+
+#note-header {
+    padding: 10px;
+}
+#note-wrap {
+    overflow: hidden;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#note-title-text {
+    color: white;
+}
+
+#note-title-input {
+    background-color: #403369;
+    color: white;
+    border-color: #D04976;
+    text-align: center;
+}
+
+#save-notes-button {
+    background-color: #BF40BF;
+    color: white;
+}
+
+#save-notes-button:hover {
+    background-color: #bf0dbf;
+}
+
+#note-body-style {
+    line-height: 100%;
+    height: 85vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    color: white;
+}
